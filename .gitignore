@@ -1,0 +1,24 @@
+# Ignore data files and folders
+/data/*
+!/data/download.sh  # Allow download script to be tracked
+!/data/sample_submission.csv  # Allow sample submission CSV to be tracked (if needed for reference)
+
+# Ignore any temporary or cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
