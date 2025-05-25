@@ -29,7 +29,6 @@ Run the inference.ipynb notebook to:
 Load the saved model and label encoder.
 Evaluate model performance on the validation set.
 Predict soil types on test images.
-Generate a submission CSV (submission.csv).
 
 Model Details
 Architecture: ResNet-18 (pretrained on ImageNet).
@@ -40,7 +39,7 @@ Optimizer: Adam (learning rate = 1e-4).
 Metrics: Weighted F1 score and classification report.
 
 Results
-Validation weighted F1 score: (add your final score here).
+Validation weighted F1 score: 0.97.
 Classification report available after validation.
 
 Future Work
