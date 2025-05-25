@@ -11,7 +11,7 @@ Test IDs: Provided in test_ids.csv (image IDs only).
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/soil-classification.git
+git clone https://github.com/rs010101/soil-classification-challenge.git
 cd soil-classification
 
 Install dependencies:
